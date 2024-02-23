@@ -1,0 +1,223 @@
+* {
+    text-decoration: none;
+    margin: 5px;
+    padding: 1px;
+    font-family: sans-serif;
+    list-style: none;
+    
+    
+
+
+}
+
+#container {
+    color: black;
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px 10px #ebffec;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 600px;
+}
+
+#container1{
+    box-shadow: 0px 0px 10px 10px #ebffec;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 300px; 
+}
+
+
+
+#container2{
+    box-shadow: 0px 0px 10px 10px #ebffec;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 300px;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 120px;
+    border-bottom: 1px solid rgb(225, 225, 226);
+
+    /* centrar verticalmente */
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 60%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+.logo h1 {
+    font-size: 35px;
+    margin-left: 20px;
+}
+.logo1{
+display: flex;
+}
+
+
+
+
+#Paisajes{
+    width: 90%;
+    color: black;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgb(225, 225, 226),0.8;
+    box-shadow: 0px 0px 10px 10px #ebffec; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+
+}
+
+
+
+#menu {
+    flex-grow: 12;
+    flex-basis: 35%;
+    height: 100px;
+
+}
+
+#menu>ul {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+#menu>ul>li>a {
+    text-transform: uppercase;
+    color: #444;
+    padding: 15px;
+    transition: all 300ms;
+}
+
+#menu a:hover {
+    background: rgb(4, 116, 43);
+    color: #eee;
+
+
+}
+
+
+#VIAJES {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 200%;
+}
+
+
+
+ #principal1{
+    align-items:center;
+    justify-content:space-between;
+    
+
+}
+
+#cabeza {
+    background: rgb(4, 116, 43);
+    font-family: sans-serif;
+}
+
+
+
+.table-paisaje1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.table-paisaje2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.table-paisaje3 {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
